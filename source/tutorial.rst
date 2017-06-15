@@ -4,6 +4,9 @@ Tutorial
 In this tutorial we describe how to load FLIM data, correct for motion and save the realigned data using Galene. 
 Please also see the `video tutorial <http://www.vimeo.com/X>`_. 
 
+.. image:: tutorial-cover.png
+   :width: 100%
+
 Loading and opening data
 ^^^^^^^^^^^^^^^^^^^^^^^^
 - Select a folder containing your data using `File>Open...`
@@ -40,15 +43,28 @@ Viewing the realignment results
 
 Optimising the realignment results
 ^^^^^^^^^^^^^^^^^^^^^^^^
-- Frames which are not well aligned can degrade the final image. 
-- Reject frames which cannot be aligned by setting the correlation threshold.
-- Reject frames where the movement was large by setting the coverage threshold. 
-- Apply the thresholds without reprocessing the data by pressing ``Reload``
+- If the realignment results are not satisfactory, the following parameters can be adjusted ①
+
+   - ``Realignment Points`` controls the number of points in the image used to estimate the displacement 
+     during each frame. We have found that the default value of 10 points provides good results across a range of images. 
+     If the motion is fast relative to the frame you may need to use more points to accurately estimate the motion. 
+     If the realignment appears 'jittery', try using fewer points. If the displacement during each frame is relatively small
+     as few as 4 points may be sufficent.   
+   - ``Smoothing`` controls the degree of smoothing in the x-axis applied to the image before realignment. Increasing the 
+     degree of smoothing can improve the realignment when the signal to noise in each frame is low. 
+  - After adjusting these settings, realign the data using ``Realign + Reload`` ②.
+
+- Frames which are not well aligned, for example if the sample moves out of the field of view, can degrade the final image. 
+  These frames can be rejected by applying thresholds to the realignment results
+
+   - Use ``Correlation Threshold`` to reject frames where the correlation with the reference frame is low.
+   - Use ``Coverage Threshold`` to reject frames where the displacement was very large. 
+   - Apply the thresholds without reprocessing the data by pressing ``Reload`` ③ .
 
 .. image:: 04.png
    :align: center
 
-Saving the realigned image and results
+Saving the realigned data
 ^^^^^^^^^^^^^^^^^^^^^^^^
 - When you are happy with the realignment, press ``Save`` ① to save the data as a histogrammed .ffh file.
   These can be read directly by FLIMfit or into Matlab using the FlimReaderMex file
