@@ -11,16 +11,10 @@ For more information please see [citation].
 
 Download and install Galene from http://www.flimfit.org/galene.
 
+Outline
+^^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    tutorial
    correction-modes
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
