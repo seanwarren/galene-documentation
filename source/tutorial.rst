@@ -2,11 +2,15 @@ Tutorial
 ==================================
 
 - Select a folder containing your data using `File>Open...`
-- Double click on an image to load it
-- We can see an intensity mapped image showing the mean arrival time
-   - Control the intensity and lifetime limits using the  
+- Double click on an image to open (1)
+- We can see an intensity mapped image showing the mean arrival time (2)
+.. note:: Control the lifetime (3) and intensity (4) limits using the options below the image 
+
+.. image:: 01.png
+   :width: 100%
+
 - Select Warp motion compensation approach using the drop down menu on the right
-   - In most cases, `Warp` is the best option. For more about the correction modes see :doc:`correction-modes`
+.. tip:: In most cases, `Warp` is the best option. For more about the correction modes see :doc:`correction-modes`
 - Align the data using the `Realign + Reload` button
 - Scroll through the aligned and unaligned frames using the Realignment window.
    - Flick between the aligned and unaligned using the 'A' button
