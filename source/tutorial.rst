@@ -49,7 +49,7 @@ Optimising the realignment results
      during each frame. We have found that the default value of 10 points provides good results across a range of images. 
      If the motion is fast relative to the frame you may need to use more points to accurately estimate the motion. 
      If the realignment appears 'jittery', try using fewer points. If the displacement during each frame is relatively small
-     as few as 4 points may be sufficent.   
+     as few as 4 points may be sufficient.   
    - ``Smoothing`` controls the degree of smoothing in the x-axis applied to the image before realignment. Increasing the 
      degree of smoothing can improve the realignment when the signal to noise in each frame is low. 
   - After adjusting these settings, realign the data using ``Realign + Reload`` ②.
@@ -71,7 +71,7 @@ Saving the realigned data
 - You can also output diagnostics about the fitting ②: 
 
    - ``Intensity preview``: save a png of the intensity of the realigned image. 
-     This is conveneient for quickly assessing which files have been successfully realigned. 
+     This is convenient for quickly assessing which files have been successfully realigned. 
    - ``Frames as movie``: save a tif stack of the aligned and unaligned frames for diagnostics
    - ``Realignment information``: save a csv file with the estimated displacements across the frames
 - To process several files using the same settings, select multiple files and click ``Process all selected`` ⑤.
