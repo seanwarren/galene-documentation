@@ -16,5 +16,7 @@ Outline
 .. toctree::
    :maxdepth: 1
 
+   getting-started
+   acquiring-data
    tutorial
    correction-modes
