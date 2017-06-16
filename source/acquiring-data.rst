@@ -24,10 +24,10 @@ Note that Spcm64 supports saving larger data files than Spcm32. To set up SPCIma
    :align: center
 
 - Open the ``System Parameters`` dialog from the Parameters menu
-- Set ``Operation Mode`` to ``FIFO Image``
-- Tick ``Save .spc file``   
-- Set ``Autosave`` to ``Each cycle``
-- Set the name of your file in ``Spec data file``
+- ① Set ``Operation Mode`` to ``FIFO Image`` 
+- ② Tick ``Save .spc file``   
+- ③ Set ``Autosave`` to ``Each cycle``
+- ④ Set the name of your file in ``Spec data file``
 
 You can then setup your imaging parameters as normal and acquire data. Spcm32/64 can load the spc data later to convert it to sdt files for loading in SPCImage. 
 
