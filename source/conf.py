@@ -218,7 +218,7 @@ latex_elements = {
     'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
-    'preamble': '',
+    'preamble': '\\setromanfont{Lato} \\setsansfont{Roboto Slab}',
 
     # Latex figure (float) alignment
     'figure_align': 'htbp',
@@ -229,7 +229,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'Galene.tex', u'Galene Documentation',
-    u'Sean Warren', 'howto'),
+     u'Sean Warren', 'howto'),
 ]
 
 latex_engine = 'xelatex'
