@@ -3,18 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+==================
 Galene
-==================================
-
+==================
 Galene is a tool to correct for sample motion in intravital FLIM. 
 For more information please see [citation]. 
 
 Download and install Galene from http://www.flimfit.org/galene.
 
-Outline
-^^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
-   :maxdepth: 1
 
    getting-started
    acquiring-data
