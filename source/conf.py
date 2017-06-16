@@ -204,22 +204,24 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'galenedoc'
+htmlhelp_basename = 'Galenedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+'papersize': 'a4paper',
+
+'classoptions': ',openany,oneside',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': '',
 
 # Latex figure (float) alignment
-#'figure_align': 'htbp',
+'figure_align': 'htbp',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -229,6 +231,8 @@ latex_documents = [
   (master_doc, 'Galene.tex', u'Galene Documentation',
    u'Sean Warren', 'howto'),
 ]
+
+latex_engine = 'xelatex'
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.

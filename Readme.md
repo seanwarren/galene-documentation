@@ -1,4 +1,12 @@
-To build and edit locally:
+To build and edit locally on a mac:
 
-pip install sphinx-rtd-theme sphinx-autobuild
+brew install python
+pip install sphinx sphinx-rtd-theme sphinx-autobuild
+
 make livehtml
+
+
+To build the PDF version:
+
+brew cask install mactex
+make latexpdf
