@@ -21,7 +21,7 @@ Correcting for motion
 ^^^^^^^^^^^^^^^^^^^^^^^^
 - Select the ``Warp`` motion compensation ① approach using the drop down menu on the right
 .. tip:: The ``Warp`` motion compensation mode takes the microscope scan pattern into account 
-         and in most is the best option.
+         and in most cases is the best option.
          For more about the correction modes and 
          the options available ② see :doc:`correction-modes`
 

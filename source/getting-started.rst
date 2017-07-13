@@ -13,7 +13,7 @@ Installing on Windows
 - Run the installer
 - Run Galene from the Start menu
 
-Installing on Mac
+Installing on macOS
 -----------------------
 - Galene is supported on macOS 10.12 Sierra. 
 - Download the Mac disk image from `<http://flimfit.org/galene>`_. 
