@@ -36,7 +36,8 @@ Viewing the realignment results
 - Scroll ③ through the aligned or unaligned frames using the ``A`` button ④ in the realignment window.
 - By default the first frame will be used as the reference. To select a different frame, press ``Use as reference`` 
   button ⑤ and realign the data using the `Realign + Reload` button.
-- The graph below shows the correlation between the realigned frame and the reference frame 
+- The graph below shows the correlation between the realigned frame and the reference frame in black and 
+  the correlation between the unaligned frame and the reference frame in red.  
 
 .. image:: 03.png
    :width: 100%
