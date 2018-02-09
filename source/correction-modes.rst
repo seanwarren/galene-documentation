@@ -16,19 +16,6 @@ Options
  - ``Frame binning``: Bins multiple frames together. 
    Increasing this value can improve the realignment of noisy data when the motion over a number of frames is slow.
 
-Rigid Body
--------------- 
-In this mode, each frame is realigned to the reference frame taking a constant *x,y* translation and a rotation into account.
-This option is appropriate if rotation is observed in the sample motion. 
-
-Options
- - ``Spatial binning``: Spatially downsamples the data by this factor. 
-   Increasing this value can improve the realignment of noisy data at the cost of some realignment precision.
- 
- - ``Frame binning``: Bins multiple frames together. 
-   Increasing this value can improve the realignment of noisy data when the motion over a number of frames is slow.
-
-
 Warp
 -------------- 
 In this mode, the displacement at multiple points during each frame is estimated. This allows us to correct for motion faster than

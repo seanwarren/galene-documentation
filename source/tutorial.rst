@@ -31,7 +31,7 @@ Correcting for motion
    :align: center
 
 Viewing the realignment results
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - The realigned FLIM image ① is shown alongside the individual intensity frames ②.
 - Scroll ③ through the aligned or unaligned frames using the ``A`` button ④ in the realignment window.
 - By default the first frame will be used as the reference. To select a different frame, press ``Use as reference`` 
@@ -42,7 +42,7 @@ Viewing the realignment results
    :width: 100%
 
 Optimising the realignment results
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - If the realignment results are not satisfactory, the following parameters can be adjusted ①
 
    - ``Realignment Points`` controls the number of points in the image used to estimate the displacement 
@@ -65,7 +65,7 @@ Optimising the realignment results
    :align: center
 
 Saving the realigned data
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 - When you are happy with the realignment, press ``Save`` ① to save the data as a histogrammed .ffh file.
   These can be read directly by FLIMfit or into Matlab using the FlimReaderMex file
 - You can also output diagnostics about the fitting ②: 
